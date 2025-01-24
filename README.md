@@ -15,19 +15,19 @@ I plan on adding a better setup feature soon to automate the first setup as well
 ## Recommended edits
 
 ```
-$bd_addr = "" #Ex. headphones
-$defaut_volume = 2
-$output = "" #Ex. dsp1
-$refresh = 180
+BD_ADDR = "" #Ex. headphones
+DEFAULT_VOLUME = 2
+OUTPUT_DEVICE = "" #Ex. dsp1
+TIME_REFRESH = 180
 ```
 
 **BD_ADDR** needs to be either the alias or the actual BD_ADDR of the bluetooth device you are connecting to.
 
-**default_volume** is set to **2** as default, you can set it to whatever you please.
+**DEFAULT_VOLUME** is set to **2** as default, you can set it to whatever you please.
 
-**output** for some, setting this to **dsp1** should work. If it throws you an error, see which output devices are available in /dev/ and pick the appropriate one. Ex. dsp3
+**OUTPUT_DEVICE** for some, setting this to **dsp1** should work. If it throws you an error, see which output devices are available in /dev/ and pick the appropriate one. Ex. dsp3
 
-**refresh** takes 180 seconds (3 minutes) by default. This is how often pacat gets restarted to ensure that the audio won't start delaying. If you feel like it restarts too often *(you'll notice hiccups every 3 minutes)*, you could change this value accordingly.
+**TIME_REFRESH** takes 180 seconds (3 minutes) by default. This is how often pacat gets restarted to ensure that the audio won't start delaying. If you feel like it restarts too often *(you'll notice hiccups every 3 minutes)*, you could change this value accordingly.
 
 
 
