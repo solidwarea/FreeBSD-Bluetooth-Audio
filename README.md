@@ -9,6 +9,8 @@ https://forums.freebsd.org/threads/bluetooth-audio-how-to-connect-and-use-blueto
 
 After that has been done, this script aims to automate that process and make it a bit easier to do. **It's definitely not the most beutiful way to automate it, but it seems to get the job done.** You will need to modify the script before running it, see instructions on how to do that below.
 
+I plan on adding a better setup feature soon to automate the first setup as as well as making the script easier to setup, as of now, it's quite bare-bones.
+
 
 ## Recommended edits
 
