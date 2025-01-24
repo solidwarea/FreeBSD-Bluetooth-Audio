@@ -1,7 +1,7 @@
-$bd_addr = "" #Ex. headphones
-$defaut_volume = 2
-$output = "" #Ex. dsp1
-$refresh = 180 #180 seconds = 3 minutes. This is how often pacat gets restarted to ensure that the audio won't start delaying. If you feel like it restarts too often (you'll notice hiccups every 3 minutes), you could change this value accordingly.
+bd_addr = "" #Ex. headphones
+defaut_volume = 2
+output = "" #Ex. dsp1
+refresh = 180 #180 seconds = 3 minutes. This is how often pacat gets restarted to ensure that the audio won't start delaying. If you feel like it restarts too often (you'll notice hiccups every 3 minutes), you could change this value accordingly.
 
 echo "This step will establish a connection to the headphones. Please ensure that you've set the script up to fit your needs."
 sudo hccontrol -n ubt0hci create_connection $bd_addr
